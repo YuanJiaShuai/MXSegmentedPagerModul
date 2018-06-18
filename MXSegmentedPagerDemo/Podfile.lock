@@ -1,0 +1,36 @@
+PODS:
+  - HMSegmentedControl (1.5.3)
+  - Masonry (1.1.0)
+  - MXPagerView (0.2.1)
+  - MXParallaxHeader (0.6.1)
+  - MXSegmentedPager (3.3.0):
+    - HMSegmentedControl (= 1.5.3)
+    - MXPagerView (= 0.2.1)
+    - MXParallaxHeader (= 0.6.1)
+  - SPPageMenu (2.5.5)
+
+DEPENDENCIES:
+  - Masonry
+  - MXSegmentedPager
+  - SPPageMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HMSegmentedControl
+    - Masonry
+    - MXPagerView
+    - MXParallaxHeader
+    - MXSegmentedPager
+    - SPPageMenu
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MXPagerView: ede184b5191b2ed689ccf05a750a9978cce42414
+  MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
+  MXSegmentedPager: a35ebaf939e1629f24db3bb26653c1c557362f59
+  SPPageMenu: 703108c321bb4658b3cea440bdf81b1cd61936c2
+
+PODFILE CHECKSUM: 34bcb744f6916ed4e4a78afda6aeacdb453066b3
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+target "MXSegmentedPagerDemo" do
+platform :ios, '8.0'
+pod 'Masonry'
+pod 'MXSegmentedPager'
+pod 'SPPageMenu'
+end

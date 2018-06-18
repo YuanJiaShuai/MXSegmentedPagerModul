@@ -1,0 +1,1402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE6DC9A0864A9D0DC45DAACF6F337A1 /* Pods-MXSegmentedPagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18069C3FC82554F329664A44EF754FB5 /* Pods-MXSegmentedPagerDemo-dummy.m */; };
+		0FEE565B8614F17DFF2518833C1D56D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
+		100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC447972D4936350D12FDE7AE55EE74 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9F4FC891CEF184EB1969184F3FD18E /* MASViewAttribute.m */; };
+		214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6474EB5CF01CA6699AEC7F1DD744A7FF /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24000F144786056668E215984509DBCC /* MXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260C3A78D7DE4DB37444F455EEEF2942 /* MXScrollView.m */; };
+		2BB394CCB5AEA9BA3C518F1778FA6CCC /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 92157D7A75C8F1978BD91B3E2F7AB540 /* HMSegmentedControl.m */; };
+		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 436E1EA23AB5CB81432199AD35A21BB1 /* MASViewConstraint.m */; };
+		305D7DA42BE3D420B9C6095601DFAFC1 /* MXSegmentedPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E5809DF4D7D60B3421E92E17E3BF91 /* MXSegmentedPagerController.m */; };
+		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A942931333C20C77C8F01020E0C4899F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		46B538AFD3B41E0E9E53F78C76D65AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		4B5CAAFDDE66314C8999F8D912344712 /* MXScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE571D9A0B71FC3FF1FF22712E2E98E /* MXScrollViewController.m */; };
+		4F057007E1DA2E734DC4CB4DAB475742 /* SPPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A04CAB2F714BDDC79EE823287C9714 /* SPPageMenu.m */; };
+		5193DF53EBFB0C83EA88EDF3B9FA3751 /* MXScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3C31ADD81B97A179862C9B1971A545 /* MXScrollViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 572E18148F9C98EE9E5FC72D762F7D95 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		563C62B18F9079C90A9527F34A7CE0BF /* SPPageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C1A31622386C57592AD3CDBED5347 /* SPPageMenu-dummy.m */; };
+		5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FF8D45EDAB43C0B7FA5EE8F2BC59BC /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6049ED2CD171F86E31B4BFE869AA82B5 /* MXPagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 103D45279480B954062A8E203BE5DE5F /* MXPagerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A73C11ECAAD68A06C57CC325EC11BED2 /* MASCompositeConstraint.m */; };
+		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1CF6D2CA829C842AED5790FED1F5C /* Masonry-dummy.m */; };
+		6965F738B2EDE7BF112BDCB8BA2B63E5 /* MXPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CFFE909E7A1FA00B42D8CD0C2688D1 /* MXPagerViewController.m */; };
+		6D26E316834D176E3A1C59912FE033F5 /* MXParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BE55A50283F81B30EE25C06895803B /* MXParallaxHeader.m */; };
+		6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA775FB721907E3FC7C7EFCD66C7B45 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FDFC3D1F1DEEE13CC2679BA9E12C2A5 /* MXPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D49296FBC98AD821FAD50D111EB9C2 /* MXPagerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78D5796C91BEB9FC824B3055C5CB286E /* MXSegmentedPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0964E64E4C7C2748745863DC896FFA2E /* MXSegmentedPager.m */; };
+		7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A87BBD2906337BECEDE7899BDF0BDC6 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87876D2E310CBF2842718BBBFD0E53A6 /* NSArray+MASAdditions.m */; };
+		81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5630A2D8809DC3A8498A4B7F11F5C3 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2174B73A5D583F76A098C750D9BF4143 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F94793AB490DAFBB28667235C72A75C4 /* MASConstraint.m */; };
+		8D52D7F2A68403DF71FEFFD3B44870D4 /* MXScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3DD5819C51A3F128BE2E996F9E4107 /* MXScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DA70C6181F4A542C7191A733B054834 /* MXSegmentedPager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7875A7F92FB23D73775FCCE5AFA4607 /* MXSegmentedPager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DE575041680E1122AE5D2B3D554CCF8 /* HMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB84A2D4728C6FFF60C8A6605B52E3 /* HMSegmentedControl-dummy.m */; };
+		8E6E4F446B92E4F3706CA03BD3D3B99B /* MXParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C006B46ABEA15104B22A1949749F0B /* MXParallaxHeader-dummy.m */; };
+		90B6B623B64FE47EB25DCECEDD2C34FE /* MXSegmentedPager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F89B6C65745ECB60F0858116302BB00 /* MXSegmentedPager-dummy.m */; };
+		92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4B600C1EBBC737DC17A5515AD26D92 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		954AED1C3797730FFA5DB2F9E6D1A600 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9866CEDBFF591AA8B276856BD7031BC8 /* HMSegmentedControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D37ABED4AD1B5FF5CED70B4DD2499E01 /* MASLayoutConstraint.m */; };
+		9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EEE4F4B43AC2EB3D5DEB3741037460 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9482AD0E533E2F7C771D75A369323E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1739C9B10500AC5CAB8774FAF640968 /* MXPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595250B954B9D591CC4E932087785DE /* MXPagerView.m */; };
+		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F42755E1836BB6E0569CA27C3B639 /* View+MASAdditions.m */; };
+		A40AD6A17AEEEC6B2AEAB2BB03414A88 /* SPPageMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = E9002DF721E6449B1414AF98639AEC3F /* SPPageMenu.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC0C17315B0370C5F54A7A6243F9C474 /* MXSegmentedPagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = F63C49CB0533028B42E4921C896E5E2A /* MXSegmentedPagerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = AC25DF1DA31FED8A5537DE597DEDE501 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EFA345202B5B62EF152863D7752E80 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94471F72B55ED00CF0B9F69311C1A169 /* ViewController+MASAdditions.m */; };
+		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A61DE4CFB8E43652A718B34BBBD13E8A /* MASConstraintMaker.m */; };
+		F0467D6DE6FBBB8AA3B5ECA5EDD69DD0 /* MXParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2CB66F273AF3F9029F631342F6186F /* MXParallaxHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F24FC8BA8A78B3EA48B33B8FF61488B4 /* MXPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A040B75F09D15F0B99A055463F56888 /* MXPagerView-dummy.m */; };
+		F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DBAA58B35017BF890B69948794CD04 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB2D6684809FC69FE060B456E307F0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F3C6BF6F1B7165D2B24C3420010819 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		027C69DD057CB81DF8B4342DDA35316B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F624A1F2E6F6F89E63FB9E07A07186;
+			remoteInfo = MXParallaxHeader;
+		};
+		172E3CA56316A8BFAF3934BEB994389B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA41C04B34285C99754DAEBD223F8A1F;
+			remoteInfo = MXSegmentedPager;
+		};
+		52F4D771ABC5932D679E7F3590FCE628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A955016240B971932F9DBE96A977A81E;
+			remoteInfo = MXPagerView;
+		};
+		99B63E30A6862D3FE47C2A7AC95E8539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F624A1F2E6F6F89E63FB9E07A07186;
+			remoteInfo = MXParallaxHeader;
+		};
+		BD804916E471BA7BD1BFAD37B552D604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 781C37A68C9207BD6C4E4D327146B96C;
+			remoteInfo = SPPageMenu;
+		};
+		CBA435337724EADB1969441025A60B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BB5B9E2C1FAC03923E65AF74162B69;
+			remoteInfo = HMSegmentedControl;
+		};
+		CF4F92CA269DB154E4A14856E39F9E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteInfo = Masonry;
+		};
+		E6B93813A6CBD7EB9F17A88D49DD8890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A955016240B971932F9DBE96A977A81E;
+			remoteInfo = MXPagerView;
+		};
+		EE60D38257B30C74FA9F64D648C1706B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6BB5B9E2C1FAC03923E65AF74162B69;
+			remoteInfo = HMSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0964E64E4C7C2748745863DC896FFA2E /* MXSegmentedPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXSegmentedPager.m; path = MXSegmentedPager/MXSegmentedPager.m; sourceTree = "<group>"; };
+		103D45279480B954062A8E203BE5DE5F /* MXPagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXPagerViewController.h; path = MXPagerView/MXPagerViewController.h; sourceTree = "<group>"; };
+		1093AB1A557851CC0DA01AFC9966C9E0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		13DAE1A8328BC0778545F7A725052C63 /* libHMSegmentedControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHMSegmentedControl.a; path = libHMSegmentedControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18069C3FC82554F329664A44EF754FB5 /* Pods-MXSegmentedPagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXSegmentedPagerDemo-dummy.m"; sourceTree = "<group>"; };
+		1D2F42755E1836BB6E0569CA27C3B639 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		2174B73A5D583F76A098C750D9BF4143 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		260C3A78D7DE4DB37444F455EEEF2942 /* MXScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollView.m; path = MXParallaxHeader/MXScrollView.m; sourceTree = "<group>"; };
+		2D9C1A31622386C57592AD3CDBED5347 /* SPPageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPPageMenu-dummy.m"; sourceTree = "<group>"; };
+		2E2CB66F273AF3F9029F631342F6186F /* MXParallaxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXParallaxHeader.h; path = MXParallaxHeader/MXParallaxHeader.h; sourceTree = "<group>"; };
+		2F89B6C65745ECB60F0858116302BB00 /* MXSegmentedPager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXSegmentedPager-dummy.m"; sourceTree = "<group>"; };
+		30EEE4F4B43AC2EB3D5DEB3741037460 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		32F3C6BF6F1B7165D2B24C3420010819 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3D3DD5819C51A3F128BE2E996F9E4107 /* MXScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXScrollView.h; path = MXParallaxHeader/MXScrollView.h; sourceTree = "<group>"; };
+		436E1EA23AB5CB81432199AD35A21BB1 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		4595250B954B9D591CC4E932087785DE /* MXPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXPagerView.m; path = MXPagerView/MXPagerView.m; sourceTree = "<group>"; };
+		4B74039F6093B846DCB691FAD292E5D0 /* MXParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		4E3C31ADD81B97A179862C9B1971A545 /* MXScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXScrollViewController.h; path = MXParallaxHeader/MXScrollViewController.h; sourceTree = "<group>"; };
+		56D11E46D7034C55245563BDB218263E /* MXSegmentedPager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXSegmentedPager-prefix.pch"; sourceTree = "<group>"; };
+		572E18148F9C98EE9E5FC72D762F7D95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		5A87BBD2906337BECEDE7899BDF0BDC6 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		5C2A88B3C843E860144D5192409F90AC /* Pods-MXSegmentedPagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXSegmentedPagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6474EB5CF01CA6699AEC7F1DD744A7FF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6AB1CF6D2CA829C842AED5790FED1F5C /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		6CCB4BE94221C42C8ED8194C7BB5363C /* MXPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXPagerView.xcconfig; sourceTree = "<group>"; };
+		72BB84A2D4728C6FFF60C8A6605B52E3 /* HMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		7356B73CAAA2790BDF76DC2ED6F68E6C /* Pods-MXSegmentedPagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXSegmentedPagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		75CFFE909E7A1FA00B42D8CD0C2688D1 /* MXPagerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXPagerViewController.m; path = MXPagerView/MXPagerViewController.m; sourceTree = "<group>"; };
+		7EA775FB721907E3FC7C7EFCD66C7B45 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		87876D2E310CBF2842718BBBFD0E53A6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		88DBAA58B35017BF890B69948794CD04 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8A040B75F09D15F0B99A055463F56888 /* MXPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXPagerView-dummy.m"; sourceTree = "<group>"; };
+		8C5630A2D8809DC3A8498A4B7F11F5C3 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		90C4B6DA83EDCC8FFB39DA6BE7C5177F /* libMXPagerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMXPagerView.a; path = libMXPagerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91D49296FBC98AD821FAD50D111EB9C2 /* MXPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXPagerView.h; path = MXPagerView/MXPagerView.h; sourceTree = "<group>"; };
+		92157D7A75C8F1978BD91B3E2F7AB540 /* HMSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = HMSegmentedControl/HMSegmentedControl.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94471F72B55ED00CF0B9F69311C1A169 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		95F0278EB31A11AB8121E1B5B3DC86C0 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		9866CEDBFF591AA8B276856BD7031BC8 /* HMSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = HMSegmentedControl/HMSegmentedControl.h; sourceTree = "<group>"; };
+		9B6B0A2981A8BED34C3B9701A262BEC1 /* MXParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXParallaxHeader.xcconfig; sourceTree = "<group>"; };
+		A5A04CAB2F714BDDC79EE823287C9714 /* SPPageMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPPageMenu.m; path = SPPageMenu/SPPageMenu.m; sourceTree = "<group>"; };
+		A61DE4CFB8E43652A718B34BBBD13E8A /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		A73C11ECAAD68A06C57CC325EC11BED2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		A942931333C20C77C8F01020E0C4899F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		AC25DF1DA31FED8A5537DE597DEDE501 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		AD014849C83B661D068923D1CAEB133B /* MXSegmentedPager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXSegmentedPager.xcconfig; sourceTree = "<group>"; };
+		AE9482AD0E533E2F7C771D75A369323E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		B518DFE8ABB16E2527B64C261B415721 /* MXPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXPagerView-prefix.pch"; sourceTree = "<group>"; };
+		B70AD888D16C9E7E337345691C519875 /* HMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		B7875A7F92FB23D73775FCCE5AFA4607 /* MXSegmentedPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXSegmentedPager.h; path = MXSegmentedPager/MXSegmentedPager.h; sourceTree = "<group>"; };
+		B9C357A3A0FED17CD4C117E9A5D661A6 /* libPods-MXSegmentedPagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MXSegmentedPagerDemo.a"; path = "libPods-MXSegmentedPagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4B600C1EBBC737DC17A5515AD26D92 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BFDA682E4F56B1B45FF77A7181417834 /* libSPPageMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSPPageMenu.a; path = libSPPageMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EFA345202B5B62EF152863D7752E80 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		CCAD5004D982FE1CFF7AA41A9C4EAB45 /* Pods-MXSegmentedPagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXSegmentedPagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE571D9A0B71FC3FF1FF22712E2E98E /* MXScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollViewController.m; path = MXParallaxHeader/MXScrollViewController.m; sourceTree = "<group>"; };
+		CEFFC2E2B0D13407B6C17C3AB9211098 /* Pods-MXSegmentedPagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXSegmentedPagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1C006B46ABEA15104B22A1949749F0B /* MXParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		D33B97C209E3C75C560F0CAA1EBE87A0 /* libMXSegmentedPager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMXSegmentedPager.a; path = libMXSegmentedPager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37ABED4AD1B5FF5CED70B4DD2499E01 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D4E5809DF4D7D60B3421E92E17E3BF91 /* MXSegmentedPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXSegmentedPagerController.m; path = MXSegmentedPager/MXSegmentedPagerController.m; sourceTree = "<group>"; };
+		D53AE35FEABA4B0C3D53E4662651B15B /* Pods-MXSegmentedPagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXSegmentedPagerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DCD6940B2C0FA209BDC23EB7569E9273 /* Pods-MXSegmentedPagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXSegmentedPagerDemo-resources.sh"; sourceTree = "<group>"; };
+		E1E6F8DDDAE93F5554A8927322A2B6CA /* HMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9002DF721E6449B1414AF98639AEC3F /* SPPageMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPPageMenu.h; path = SPPageMenu/SPPageMenu.h; sourceTree = "<group>"; };
+		EA9F4FC891CEF184EB1969184F3FD18E /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		F0F35D0F34E8FA070E80489E8B0BE9A6 /* SPPageMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPPageMenu.xcconfig; sourceTree = "<group>"; };
+		F2E791A3442595136F995757778FA4DA /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FF8D45EDAB43C0B7FA5EE8F2BC59BC /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		F63C49CB0533028B42E4921C896E5E2A /* MXSegmentedPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXSegmentedPagerController.h; path = MXSegmentedPager/MXSegmentedPagerController.h; sourceTree = "<group>"; };
+		F8BE55A50283F81B30EE25C06895803B /* MXParallaxHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXParallaxHeader.m; path = MXParallaxHeader/MXParallaxHeader.m; sourceTree = "<group>"; };
+		F8F61301CDF939816282F747A66AE059 /* libMXParallaxHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMXParallaxHeader.a; path = libMXParallaxHeader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94793AB490DAFBB28667235C72A75C4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		FAC447972D4936350D12FDE7AE55EE74 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		FFFECFA58598E11B712D443ED4765F9B /* SPPageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPPageMenu-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DDE2450730A7E6C74C90A0E8816C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF842CD30702C8E70C3A6C09AB9BD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AAA2BB0B5AD0A13CACACD0D4753B158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E38F59A74C84BF14AFF6E467A962367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEE565B8614F17DFF2518833C1D56D4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B538AFD3B41E0E9E53F78C76D65AA9 /* Foundation.framework in Frameworks */,
+				FB2D6684809FC69FE060B456E307F0D8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763DB711BA2F36A43875DF9CB62F49B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E78573168C472E98BABA8BA7BC029E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255570663387CD57D3D152791C019315 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70AD888D16C9E7E337345691C519875 /* HMSegmentedControl.xcconfig */,
+				72BB84A2D4728C6FFF60C8A6605B52E3 /* HMSegmentedControl-dummy.m */,
+				E1E6F8DDDAE93F5554A8927322A2B6CA /* HMSegmentedControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HMSegmentedControl";
+			sourceTree = "<group>";
+		};
+		284AB22AFEF9A47FC7D141DB2AADB4AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610D59C3C1D0295E5A059E9D0A8D2F18 /* HMSegmentedControl */,
+				B508F1FA57AA04519087D11B480B743D /* Masonry */,
+				7C3F2B3DCDDFD77E929458F42E40D0B3 /* MXPagerView */,
+				9F0D89795AD97D31313B4893DD3A934D /* MXParallaxHeader */,
+				5AC10FD21193457A535EDF58978C7DA4 /* MXSegmentedPager */,
+				6D46D1AB55FAF68B5A67EE1F722FB03F /* SPPageMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57EA684E95F8082C581C0F463D9E285F /* Pods-MXSegmentedPagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFC2E2B0D13407B6C17C3AB9211098 /* Pods-MXSegmentedPagerDemo-acknowledgements.markdown */,
+				5C2A88B3C843E860144D5192409F90AC /* Pods-MXSegmentedPagerDemo-acknowledgements.plist */,
+				18069C3FC82554F329664A44EF754FB5 /* Pods-MXSegmentedPagerDemo-dummy.m */,
+				D53AE35FEABA4B0C3D53E4662651B15B /* Pods-MXSegmentedPagerDemo-frameworks.sh */,
+				DCD6940B2C0FA209BDC23EB7569E9273 /* Pods-MXSegmentedPagerDemo-resources.sh */,
+				CCAD5004D982FE1CFF7AA41A9C4EAB45 /* Pods-MXSegmentedPagerDemo.debug.xcconfig */,
+				7356B73CAAA2790BDF76DC2ED6F68E6C /* Pods-MXSegmentedPagerDemo.release.xcconfig */,
+			);
+			name = "Pods-MXSegmentedPagerDemo";
+			path = "Target Support Files/Pods-MXSegmentedPagerDemo";
+			sourceTree = "<group>";
+		};
+		5AC10FD21193457A535EDF58978C7DA4 /* MXSegmentedPager */ = {
+			isa = PBXGroup;
+			children = (
+				B7875A7F92FB23D73775FCCE5AFA4607 /* MXSegmentedPager.h */,
+				0964E64E4C7C2748745863DC896FFA2E /* MXSegmentedPager.m */,
+				F63C49CB0533028B42E4921C896E5E2A /* MXSegmentedPagerController.h */,
+				D4E5809DF4D7D60B3421E92E17E3BF91 /* MXSegmentedPagerController.m */,
+				CDEC7D2F2DF5D6E8390ED92333973BED /* Support Files */,
+			);
+			name = MXSegmentedPager;
+			path = MXSegmentedPager;
+			sourceTree = "<group>";
+		};
+		610D59C3C1D0295E5A059E9D0A8D2F18 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				9866CEDBFF591AA8B276856BD7031BC8 /* HMSegmentedControl.h */,
+				92157D7A75C8F1978BD91B3E2F7AB540 /* HMSegmentedControl.m */,
+				255570663387CD57D3D152791C019315 /* Support Files */,
+			);
+			name = HMSegmentedControl;
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		678BDE12330D8D2B4CA86FEB69DA897D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6B0A2981A8BED34C3B9701A262BEC1 /* MXParallaxHeader.xcconfig */,
+				D1C006B46ABEA15104B22A1949749F0B /* MXParallaxHeader-dummy.m */,
+				4B74039F6093B846DCB691FAD292E5D0 /* MXParallaxHeader-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MXParallaxHeader";
+			sourceTree = "<group>";
+		};
+		6996EA3C4D7060918256613B3936ECDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB4BE94221C42C8ED8194C7BB5363C /* MXPagerView.xcconfig */,
+				8A040B75F09D15F0B99A055463F56888 /* MXPagerView-dummy.m */,
+				B518DFE8ABB16E2527B64C261B415721 /* MXPagerView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MXPagerView";
+			sourceTree = "<group>";
+		};
+		6D46D1AB55FAF68B5A67EE1F722FB03F /* SPPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E9002DF721E6449B1414AF98639AEC3F /* SPPageMenu.h */,
+				A5A04CAB2F714BDDC79EE823287C9714 /* SPPageMenu.m */,
+				9DDF99A5C0A943C8772BF1C7B2E83488 /* Support Files */,
+			);
+			name = SPPageMenu;
+			path = SPPageMenu;
+			sourceTree = "<group>";
+		};
+		7C3F2B3DCDDFD77E929458F42E40D0B3 /* MXPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				91D49296FBC98AD821FAD50D111EB9C2 /* MXPagerView.h */,
+				4595250B954B9D591CC4E932087785DE /* MXPagerView.m */,
+				103D45279480B954062A8E203BE5DE5F /* MXPagerViewController.h */,
+				75CFFE909E7A1FA00B42D8CD0C2688D1 /* MXPagerViewController.m */,
+				6996EA3C4D7060918256613B3936ECDE /* Support Files */,
+			);
+			name = MXPagerView;
+			path = MXPagerView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				284AB22AFEF9A47FC7D141DB2AADB4AD /* Pods */,
+				E87F117BD6FC3441497FB04C8E4FFEA2 /* Products */,
+				834740D09F95F9B970F204A196248460 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		834740D09F95F9B970F204A196248460 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57EA684E95F8082C581C0F463D9E285F /* Pods-MXSegmentedPagerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9DDF99A5C0A943C8772BF1C7B2E83488 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0F35D0F34E8FA070E80489E8B0BE9A6 /* SPPageMenu.xcconfig */,
+				2D9C1A31622386C57592AD3CDBED5347 /* SPPageMenu-dummy.m */,
+				FFFECFA58598E11B712D443ED4765F9B /* SPPageMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPPageMenu";
+			sourceTree = "<group>";
+		};
+		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
+				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
+				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F0D89795AD97D31313B4893DD3A934D /* MXParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				2E2CB66F273AF3F9029F631342F6186F /* MXParallaxHeader.h */,
+				F8BE55A50283F81B30EE25C06895803B /* MXParallaxHeader.m */,
+				3D3DD5819C51A3F128BE2E996F9E4107 /* MXScrollView.h */,
+				260C3A78D7DE4DB37444F455EEEF2942 /* MXScrollView.m */,
+				4E3C31ADD81B97A179862C9B1971A545 /* MXScrollViewController.h */,
+				CCE571D9A0B71FC3FF1FF22712E2E98E /* MXScrollViewController.m */,
+				678BDE12330D8D2B4CA86FEB69DA897D /* Support Files */,
+			);
+			name = MXParallaxHeader;
+			path = MXParallaxHeader;
+			sourceTree = "<group>";
+		};
+		B508F1FA57AA04519087D11B480B743D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				88DBAA58B35017BF890B69948794CD04 /* MASCompositeConstraint.h */,
+				A73C11ECAAD68A06C57CC325EC11BED2 /* MASCompositeConstraint.m */,
+				7EA775FB721907E3FC7C7EFCD66C7B45 /* MASConstraint.h */,
+				F94793AB490DAFBB28667235C72A75C4 /* MASConstraint.m */,
+				8C5630A2D8809DC3A8498A4B7F11F5C3 /* MASConstraint+Private.h */,
+				AC25DF1DA31FED8A5537DE597DEDE501 /* MASConstraintMaker.h */,
+				A61DE4CFB8E43652A718B34BBBD13E8A /* MASConstraintMaker.m */,
+				30EEE4F4B43AC2EB3D5DEB3741037460 /* MASLayoutConstraint.h */,
+				D37ABED4AD1B5FF5CED70B4DD2499E01 /* MASLayoutConstraint.m */,
+				572E18148F9C98EE9E5FC72D762F7D95 /* Masonry.h */,
+				5A87BBD2906337BECEDE7899BDF0BDC6 /* MASUtilities.h */,
+				FAC447972D4936350D12FDE7AE55EE74 /* MASViewAttribute.h */,
+				EA9F4FC891CEF184EB1969184F3FD18E /* MASViewAttribute.m */,
+				F4FF8D45EDAB43C0B7FA5EE8F2BC59BC /* MASViewConstraint.h */,
+				436E1EA23AB5CB81432199AD35A21BB1 /* MASViewConstraint.m */,
+				AE9482AD0E533E2F7C771D75A369323E /* NSArray+MASAdditions.h */,
+				87876D2E310CBF2842718BBBFD0E53A6 /* NSArray+MASAdditions.m */,
+				32F3C6BF6F1B7165D2B24C3420010819 /* NSArray+MASShorthandAdditions.h */,
+				6474EB5CF01CA6699AEC7F1DD744A7FF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A942931333C20C77C8F01020E0C4899F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				C3EFA345202B5B62EF152863D7752E80 /* View+MASAdditions.h */,
+				1D2F42755E1836BB6E0569CA27C3B639 /* View+MASAdditions.m */,
+				BE4B600C1EBBC737DC17A5515AD26D92 /* View+MASShorthandAdditions.h */,
+				2174B73A5D583F76A098C750D9BF4143 /* ViewController+MASAdditions.h */,
+				94471F72B55ED00CF0B9F69311C1A169 /* ViewController+MASAdditions.m */,
+				D4785E8481ED1E5E8B2A62D3794E65A1 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		CDEC7D2F2DF5D6E8390ED92333973BED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD014849C83B661D068923D1CAEB133B /* MXSegmentedPager.xcconfig */,
+				2F89B6C65745ECB60F0858116302BB00 /* MXSegmentedPager-dummy.m */,
+				56D11E46D7034C55245563BDB218263E /* MXSegmentedPager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MXSegmentedPager";
+			sourceTree = "<group>";
+		};
+		D4785E8481ED1E5E8B2A62D3794E65A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F0278EB31A11AB8121E1B5B3DC86C0 /* Masonry.xcconfig */,
+				6AB1CF6D2CA829C842AED5790FED1F5C /* Masonry-dummy.m */,
+				1093AB1A557851CC0DA01AFC9966C9E0 /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		E87F117BD6FC3441497FB04C8E4FFEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13DAE1A8328BC0778545F7A725052C63 /* libHMSegmentedControl.a */,
+				F2E791A3442595136F995757778FA4DA /* libMasonry.a */,
+				90C4B6DA83EDCC8FFB39DA6BE7C5177F /* libMXPagerView.a */,
+				F8F61301CDF939816282F747A66AE059 /* libMXParallaxHeader.a */,
+				D33B97C209E3C75C560F0CAA1EBE87A0 /* libMXSegmentedPager.a */,
+				B9C357A3A0FED17CD4C117E9A5D661A6 /* libPods-MXSegmentedPagerDemo.a */,
+				BFDA682E4F56B1B45FF77A7181417834 /* libSPPageMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B85128FA141222BF0E52B62537BD9CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40AD6A17AEEEC6B2AEAB2BB03414A88 /* SPPageMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E2BB0060D70822788AE31E40C1A435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDFC3D1F1DEEE13CC2679BA9E12C2A5 /* MXPagerView.h in Headers */,
+				6049ED2CD171F86E31B4BFE869AA82B5 /* MXPagerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886EAA56DED2CBA4E3BBA85FF72B024D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0467D6DE6FBBB8AA3B5ECA5EDD69DD0 /* MXParallaxHeader.h in Headers */,
+				8D52D7F2A68403DF71FEFFD3B44870D4 /* MXScrollView.h in Headers */,
+				5193DF53EBFB0C83EA88EDF3B9FA3751 /* MXScrollViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99DE90FFF128D95EB43A7E4991BF820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA70C6181F4A542C7191A733B054834 /* MXSegmentedPager.h in Headers */,
+				AC0C17315B0370C5F54A7A6243F9C474 /* MXSegmentedPagerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */,
+				81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */,
+				6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */,
+				B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */,
+				9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */,
+				523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */,
+				7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */,
+				100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */,
+				5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */,
+				9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */,
+				FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */,
+				214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */,
+				92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */,
+				86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E034E0FA0C736C6576BC6F56B59F18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AED1C3797730FFA5DB2F9E6D1A600 /* HMSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22F624A1F2E6F6F89E63FB9E07A07186 /* MXParallaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8672FCB8B80590329FBD09B73D28EB91 /* Build configuration list for PBXNativeTarget "MXParallaxHeader" */;
+			buildPhases = (
+				8C9A59F595416C5163CF884CB0A61433 /* Sources */,
+				2CF842CD30702C8E70C3A6C09AB9BD18 /* Frameworks */,
+				886EAA56DED2CBA4E3BBA85FF72B024D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXParallaxHeader;
+			productName = MXParallaxHeader;
+			productReference = F8F61301CDF939816282F747A66AE059 /* libMXParallaxHeader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		781C37A68C9207BD6C4E4D327146B96C /* SPPageMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07BA11E010BB7995EAB4E48CC687E4B /* Build configuration list for PBXNativeTarget "SPPageMenu" */;
+			buildPhases = (
+				D1B96F9625F21626F4DF985ADF399649 /* Sources */,
+				B1E78573168C472E98BABA8BA7BC029E /* Frameworks */,
+				4B85128FA141222BF0E52B62537BD9CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPPageMenu;
+			productName = SPPageMenu;
+			productReference = BFDA682E4F56B1B45FF77A7181417834 /* libSPPageMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				C4BE2DC1E815E7367562323223772531 /* Sources */,
+				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
+				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = F2E791A3442595136F995757778FA4DA /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A955016240B971932F9DBE96A977A81E /* MXPagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAC7115501A58F102844A924BFBDF38 /* Build configuration list for PBXNativeTarget "MXPagerView" */;
+			buildPhases = (
+				8B2538036C36DD6C95946DB3A657678B /* Sources */,
+				5AAA2BB0B5AD0A13CACACD0D4753B158 /* Frameworks */,
+				63E2BB0060D70822788AE31E40C1A435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXPagerView;
+			productName = MXPagerView;
+			productReference = 90C4B6DA83EDCC8FFB39DA6BE7C5177F /* libMXPagerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC19CFBDC0D5713E388D6461C7A16DC4 /* Pods-MXSegmentedPagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8581722A606499AA267C3CDC8E5D5889 /* Build configuration list for PBXNativeTarget "Pods-MXSegmentedPagerDemo" */;
+			buildPhases = (
+				D83D7881B91EEE0C68194099616B18FD /* Sources */,
+				763DB711BA2F36A43875DF9CB62F49B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F689B99E5B3489AD9AE9945C32949791 /* PBXTargetDependency */,
+				C4F66E7AED08A857CAA9F1F0E76B9801 /* PBXTargetDependency */,
+				BCEC7BB55407C4C6030D52EEB3944953 /* PBXTargetDependency */,
+				D8A25E58C8AA95E6780DF4BA99DDFABB /* PBXTargetDependency */,
+				C743DF6E055DEE0391E375C426D71234 /* PBXTargetDependency */,
+				C666D73F6E247319F9A9AFAB4C913975 /* PBXTargetDependency */,
+			);
+			name = "Pods-MXSegmentedPagerDemo";
+			productName = "Pods-MXSegmentedPagerDemo";
+			productReference = B9C357A3A0FED17CD4C117E9A5D661A6 /* libPods-MXSegmentedPagerDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA41C04B34285C99754DAEBD223F8A1F /* MXSegmentedPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFE08ADCA14527DC88889FBFB741A6D /* Build configuration list for PBXNativeTarget "MXSegmentedPager" */;
+			buildPhases = (
+				F9EED32778A80CBD2E34A054D546BB80 /* Sources */,
+				06DDE2450730A7E6C74C90A0E8816C35 /* Frameworks */,
+				B99DE90FFF128D95EB43A7E4991BF820 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D248E4E78751064B22DB723F32591B0 /* PBXTargetDependency */,
+				EFB6932CFBFDC22111962F60CC405DF0 /* PBXTargetDependency */,
+				D54583ED8763EF34441CC8F06B348C4F /* PBXTargetDependency */,
+			);
+			name = MXSegmentedPager;
+			productName = MXSegmentedPager;
+			productReference = D33B97C209E3C75C560F0CAA1EBE87A0 /* libMXSegmentedPager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E6BB5B9E2C1FAC03923E65AF74162B69 /* HMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0E8FBCDF5AA60A1C680623D77F85C4 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */;
+			buildPhases = (
+				326E82340C727B3D510DB75F8BF979E8 /* Sources */,
+				5E38F59A74C84BF14AFF6E467A962367 /* Frameworks */,
+				C4E034E0FA0C736C6576BC6F56B59F18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMSegmentedControl;
+			productName = HMSegmentedControl;
+			productReference = 13DAE1A8328BC0778545F7A725052C63 /* libHMSegmentedControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E87F117BD6FC3441497FB04C8E4FFEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BB5B9E2C1FAC03923E65AF74162B69 /* HMSegmentedControl */,
+				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
+				A955016240B971932F9DBE96A977A81E /* MXPagerView */,
+				22F624A1F2E6F6F89E63FB9E07A07186 /* MXParallaxHeader */,
+				DA41C04B34285C99754DAEBD223F8A1F /* MXSegmentedPager */,
+				AC19CFBDC0D5713E388D6461C7A16DC4 /* Pods-MXSegmentedPagerDemo */,
+				781C37A68C9207BD6C4E4D327146B96C /* SPPageMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326E82340C727B3D510DB75F8BF979E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE575041680E1122AE5D2B3D554CCF8 /* HMSegmentedControl-dummy.m in Sources */,
+				2BB394CCB5AEA9BA3C518F1778FA6CCC /* HMSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2538036C36DD6C95946DB3A657678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24FC8BA8A78B3EA48B33B8FF61488B4 /* MXPagerView-dummy.m in Sources */,
+				A1739C9B10500AC5CAB8774FAF640968 /* MXPagerView.m in Sources */,
+				6965F738B2EDE7BF112BDCB8BA2B63E5 /* MXPagerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9A59F595416C5163CF884CB0A61433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6E4F446B92E4F3706CA03BD3D3B99B /* MXParallaxHeader-dummy.m in Sources */,
+				6D26E316834D176E3A1C59912FE033F5 /* MXParallaxHeader.m in Sources */,
+				24000F144786056668E215984509DBCC /* MXScrollView.m in Sources */,
+				4B5CAAFDDE66314C8999F8D912344712 /* MXScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
+				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
+				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
+				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
+				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
+				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
+				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
+				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
+				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
+				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B96F9625F21626F4DF985ADF399649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563C62B18F9079C90A9527F34A7CE0BF /* SPPageMenu-dummy.m in Sources */,
+				4F057007E1DA2E734DC4CB4DAB475742 /* SPPageMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83D7881B91EEE0C68194099616B18FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE6DC9A0864A9D0DC45DAACF6F337A1 /* Pods-MXSegmentedPagerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EED32778A80CBD2E34A054D546BB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B6B623B64FE47EB25DCECEDD2C34FE /* MXSegmentedPager-dummy.m in Sources */,
+				78D5796C91BEB9FC824B3055C5CB286E /* MXSegmentedPager.m in Sources */,
+				305D7DA42BE3D420B9C6095601DFAFC1 /* MXSegmentedPagerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D248E4E78751064B22DB723F32591B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMSegmentedControl;
+			target = E6BB5B9E2C1FAC03923E65AF74162B69 /* HMSegmentedControl */;
+			targetProxy = EE60D38257B30C74FA9F64D648C1706B /* PBXContainerItemProxy */;
+		};
+		BCEC7BB55407C4C6030D52EEB3944953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXParallaxHeader;
+			target = 22F624A1F2E6F6F89E63FB9E07A07186 /* MXParallaxHeader */;
+			targetProxy = 99B63E30A6862D3FE47C2A7AC95E8539 /* PBXContainerItemProxy */;
+		};
+		C4F66E7AED08A857CAA9F1F0E76B9801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXPagerView;
+			target = A955016240B971932F9DBE96A977A81E /* MXPagerView */;
+			targetProxy = E6B93813A6CBD7EB9F17A88D49DD8890 /* PBXContainerItemProxy */;
+		};
+		C666D73F6E247319F9A9AFAB4C913975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPPageMenu;
+			target = 781C37A68C9207BD6C4E4D327146B96C /* SPPageMenu */;
+			targetProxy = BD804916E471BA7BD1BFAD37B552D604 /* PBXContainerItemProxy */;
+		};
+		C743DF6E055DEE0391E375C426D71234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
+			targetProxy = CF4F92CA269DB154E4A14856E39F9E71 /* PBXContainerItemProxy */;
+		};
+		D54583ED8763EF34441CC8F06B348C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXParallaxHeader;
+			target = 22F624A1F2E6F6F89E63FB9E07A07186 /* MXParallaxHeader */;
+			targetProxy = 027C69DD057CB81DF8B4342DDA35316B /* PBXContainerItemProxy */;
+		};
+		D8A25E58C8AA95E6780DF4BA99DDFABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXSegmentedPager;
+			target = DA41C04B34285C99754DAEBD223F8A1F /* MXSegmentedPager */;
+			targetProxy = 172E3CA56316A8BFAF3934BEB994389B /* PBXContainerItemProxy */;
+		};
+		EFB6932CFBFDC22111962F60CC405DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXPagerView;
+			target = A955016240B971932F9DBE96A977A81E /* MXPagerView */;
+			targetProxy = 52F4D771ABC5932D679E7F3590FCE628 /* PBXContainerItemProxy */;
+		};
+		F689B99E5B3489AD9AE9945C32949791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMSegmentedControl;
+			target = E6BB5B9E2C1FAC03923E65AF74162B69 /* HMSegmentedControl */;
+			targetProxy = CBA435337724EADB1969441025A60B18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12263DB2D61717CCCD9090B2B3390C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAD5004D982FE1CFF7AA41A9C4EAB45 /* Pods-MXSegmentedPagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E608A84B0E944E5DDD6C3F5662C51B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7356B73CAAA2790BDF76DC2ED6F68E6C /* Pods-MXSegmentedPagerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C0B7197226A69FBC304CBEEDEAAF52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6B0A2981A8BED34C3B9701A262BEC1 /* MXParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MXParallaxHeader/MXParallaxHeader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MXParallaxHeader;
+				PRODUCT_NAME = MXParallaxHeader;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582FC6F37EF0B4ED9AF64B6E0EF9C898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70AD888D16C9E7E337345691C519875 /* HMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HMSegmentedControl;
+				PRODUCT_NAME = HMSegmentedControl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6033A2127E806DD5C86A515742F7445E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F0278EB31A11AB8121E1B5B3DC86C0 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6681B1A324732F8264BB932595DFA69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F0278EB31A11AB8121E1B5B3DC86C0 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713E9561D6BEFE8163DCA453B7F3D9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD014849C83B661D068923D1CAEB133B /* MXSegmentedPager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MXSegmentedPager/MXSegmentedPager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MXSegmentedPager;
+				PRODUCT_NAME = MXSegmentedPager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D656DE35B1984CF3C58181BDEB74AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F35D0F34E8FA070E80489E8B0BE9A6 /* SPPageMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SPPageMenu/SPPageMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SPPageMenu;
+				PRODUCT_NAME = SPPageMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60B1C743D8DA891A55021E9B56F2DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD014849C83B661D068923D1CAEB133B /* MXSegmentedPager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MXSegmentedPager/MXSegmentedPager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MXSegmentedPager;
+				PRODUCT_NAME = MXSegmentedPager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C5E8E6399017E195E7950DED880754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6B0A2981A8BED34C3B9701A262BEC1 /* MXParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MXParallaxHeader/MXParallaxHeader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MXParallaxHeader;
+				PRODUCT_NAME = MXParallaxHeader;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D224A35F4E6D0AE150F480445854B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70AD888D16C9E7E337345691C519875 /* HMSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HMSegmentedControl/HMSegmentedControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HMSegmentedControl;
+				PRODUCT_NAME = HMSegmentedControl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD620F5BAD2151D8164E538F7CE6058F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F35D0F34E8FA070E80489E8B0BE9A6 /* SPPageMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SPPageMenu/SPPageMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SPPageMenu;
+				PRODUCT_NAME = SPPageMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E89FE11F801D9E57F98AB700BBCFCCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCB4BE94221C42C8ED8194C7BB5363C /* MXPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MXPagerView/MXPagerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MXPagerView;
+				PRODUCT_NAME = MXPagerView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3E1FE56E17EB505F29104D7234D373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCB4BE94221C42C8ED8194C7BB5363C /* MXPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MXPagerView/MXPagerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MXPagerView;
+				PRODUCT_NAME = MXPagerView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAC7115501A58F102844A924BFBDF38 /* Build configuration list for PBXNativeTarget "MXPagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3E1FE56E17EB505F29104D7234D373 /* Debug */,
+				E89FE11F801D9E57F98AB700BBCFCCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6033A2127E806DD5C86A515742F7445E /* Debug */,
+				6681B1A324732F8264BB932595DFA69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFE08ADCA14527DC88889FBFB741A6D /* Build configuration list for PBXNativeTarget "MXSegmentedPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713E9561D6BEFE8163DCA453B7F3D9BA /* Debug */,
+				B60B1C743D8DA891A55021E9B56F2DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0E8FBCDF5AA60A1C680623D77F85C4 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D224A35F4E6D0AE150F480445854B72C /* Debug */,
+				582FC6F37EF0B4ED9AF64B6E0EF9C898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8581722A606499AA267C3CDC8E5D5889 /* Build configuration list for PBXNativeTarget "Pods-MXSegmentedPagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12263DB2D61717CCCD9090B2B3390C85 /* Debug */,
+				1E608A84B0E944E5DDD6C3F5662C51B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8672FCB8B80590329FBD09B73D28EB91 /* Build configuration list for PBXNativeTarget "MXParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0B7197226A69FBC304CBEEDEAAF52E /* Debug */,
+				B9C5E8E6399017E195E7950DED880754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07BA11E010BB7995EAB4E48CC687E4B /* Build configuration list for PBXNativeTarget "SPPageMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D656DE35B1984CF3C58181BDEB74AB2 /* Debug */,
+				DD620F5BAD2151D8164E538F7CE6058F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
